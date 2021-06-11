@@ -10,8 +10,12 @@ module.exports = function(app) {
         res.render('index.html')
      });
      app.get('/about',function(req,res){
-        res.render('new_about.html');
+        res.render('about.html');
     });
+    app.get('/new_about',function(req,res){
+      res.render('new_about.html');
+  });
+   
      
     app.get('/listall', function (req, res) {
       //res.render('about.html');

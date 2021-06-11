@@ -10,7 +10,7 @@ module.exports = function(app) {
         res.render('index.html')
      });
      app.get('/about',function(req,res){
-        res.render('about.html');
+        res.render('new_about.html');
     });
      
     app.get('/listall', function (req, res) {
